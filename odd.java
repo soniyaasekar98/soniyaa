@@ -10,9 +10,13 @@ if(n%2==0)
 {
 System.out.print("even");
 }
-else
+else if(n<0)
 {
-System.out.print("odd");
+System.out.print("invalid");
 }
+  else
+  {
+    System.out.print("odd");
+  }
 }
 }
