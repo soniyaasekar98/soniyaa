@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class vowel
+class vo
 {
     public static void main(String args[])
     {
