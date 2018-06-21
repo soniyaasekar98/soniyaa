@@ -8,19 +8,19 @@ Scanner sc=new Scanner(System.in);
 int x=sc.nextInt();
 if(x%4==0) && (x%100!=0)
 {
-System.out.print("leap year");
+System.out.print("yes");
 }
 else if(x%100==0)
 {
-System.out.print("not leap year");
+System.out.print("no");
 }
 else if(x%400==0)
 {
-System.out.print("leap year");
+System.out.print("yes");
 }
 else 
 {
-System.out.print("not leap year");
+System.out.print("no");
 }
 }
 }|
